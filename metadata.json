@@ -1,0 +1,8 @@
+{
+  "name": "HypeCheck",
+  "description": "Production-grade multimodal virality analysis tool powered by Gemini. Analyzes memes, videos, and audio against current trends to predict viral potential.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
