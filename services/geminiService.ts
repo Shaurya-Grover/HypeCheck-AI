@@ -61,7 +61,7 @@ export const analyzeContent = async (
   inputType: 'image' | 'video' | 'audio',
   country: string
 ): Promise<ViralityResult> => {
-  const apiKey = "AIzaSyBn4jNLocTGBDoDsfi5iPew6lLl9VtJwt4";
+  const apiKey = process.env.API_KEY;
   
   if (!apiKey) {
     throw new Error("MISSING_API_KEY");
